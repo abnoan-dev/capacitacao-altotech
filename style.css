@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    
+    
+}
+
+.img-logo {
+    display: flex;
+    margin-left: 350px;
+    height: 30px;
+}
+
+header > nav {
+    display: inline-block;
+    justify-content: space-between;
+} 
+
+header > nav a {
+    text-decoration: none;
+    color: 	#808080;
+    margin: 35px;
+    margin-top: 30px;
+}
+
+header > nav a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container-text {
+    text-align: center;
+}
+
+
+.btn {
+    background-color: #4BC1D2;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+
+.container-azul {
+    background-color: #CFF2F5;
+    margin-top: 150px;
+    position: relative;
+    z-index: 2;
+}
+
+.img-livros {
+    position: relative;
+    z-index: 4;
+    
+
+}
+
+/* .container-azul > img {
+ margin: 20px 50px ;
+
+} */
